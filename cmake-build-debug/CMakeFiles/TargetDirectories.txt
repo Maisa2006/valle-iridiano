@@ -1,0 +1,3 @@
+C:/Users/Maria Isabel/Desktop/CLionProjects/proyectofinal/cmake-build-debug/CMakeFiles/proyectofinal.dir
+C:/Users/Maria Isabel/Desktop/CLionProjects/proyectofinal/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Maria Isabel/Desktop/CLionProjects/proyectofinal/cmake-build-debug/CMakeFiles/rebuild_cache.dir

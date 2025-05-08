@@ -61,30 +61,6 @@ build CMakeFiles/proyectofinal.dir/Criatura.cpp.obj: CXX_COMPILER__proyectofinal
   OBJECT_DIR = CMakeFiles\proyectofinal.dir
   OBJECT_FILE_DIR = CMakeFiles\proyectofinal.dir
 
-build CMakeFiles/proyectofinal.dir/Nodo.cpp.obj: CXX_COMPILER__proyectofinal_unscanned_Debug C$:/Users/Maria$ Isabel/Desktop/CLionProjects/proyectofinal/Nodo.cpp || cmake_object_order_depends_target_proyectofinal
-  DEP_FILE = CMakeFiles\proyectofinal.dir\Nodo.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\proyectofinal.dir
-  OBJECT_FILE_DIR = CMakeFiles\proyectofinal.dir
-
-build CMakeFiles/proyectofinal.dir/Ecosistema.cpp.obj: CXX_COMPILER__proyectofinal_unscanned_Debug C$:/Users/Maria$ Isabel/Desktop/CLionProjects/proyectofinal/Ecosistema.cpp || cmake_object_order_depends_target_proyectofinal
-  DEP_FILE = CMakeFiles\proyectofinal.dir\Ecosistema.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\proyectofinal.dir
-  OBJECT_FILE_DIR = CMakeFiles\proyectofinal.dir
-
-build CMakeFiles/proyectofinal.dir/Observador.cpp.obj: CXX_COMPILER__proyectofinal_unscanned_Debug C$:/Users/Maria$ Isabel/Desktop/CLionProjects/proyectofinal/Observador.cpp || cmake_object_order_depends_target_proyectofinal
-  DEP_FILE = CMakeFiles\proyectofinal.dir\Observador.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\proyectofinal.dir
-  OBJECT_FILE_DIR = CMakeFiles\proyectofinal.dir
-
-build CMakeFiles/proyectofinal.dir/Criaturas.cpp.obj: CXX_COMPILER__proyectofinal_unscanned_Debug C$:/Users/Maria$ Isabel/Desktop/CLionProjects/proyectofinal/Criaturas.cpp || cmake_object_order_depends_target_proyectofinal
-  DEP_FILE = CMakeFiles\proyectofinal.dir\Criaturas.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\proyectofinal.dir
-  OBJECT_FILE_DIR = CMakeFiles\proyectofinal.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target proyectofinal
@@ -93,7 +69,7 @@ build CMakeFiles/proyectofinal.dir/Criaturas.cpp.obj: CXX_COMPILER__proyectofina
 #############################################
 # Link the executable proyectofinal.exe
 
-build proyectofinal.exe: CXX_EXECUTABLE_LINKER__proyectofinal_Debug CMakeFiles/proyectofinal.dir/main.cpp.obj CMakeFiles/proyectofinal.dir/Criatura.cpp.obj CMakeFiles/proyectofinal.dir/Nodo.cpp.obj CMakeFiles/proyectofinal.dir/Ecosistema.cpp.obj CMakeFiles/proyectofinal.dir/Observador.cpp.obj CMakeFiles/proyectofinal.dir/Criaturas.cpp.obj
+build proyectofinal.exe: CXX_EXECUTABLE_LINKER__proyectofinal_Debug CMakeFiles/proyectofinal.dir/main.cpp.obj CMakeFiles/proyectofinal.dir/Criatura.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\proyectofinal.dir

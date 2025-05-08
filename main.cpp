@@ -1,3 +1,23 @@
+#include "Ecosistema.h"
+#include "Observador.h"
+#include <cstdlib>
+#include <ctime>
+
+int main() {
+    std::srand(std::time(nullptr));
+
+    Ecosistema eco;
+    eco.poblar();
+
+    for (int i = 0; i < 5; ++i)
+        eco.simularTurno();
+
+    eco.guardarEstado("data/estado.json");
+
+    Observador::observar(eco);
+
+    return 0;
+}
 
 
 

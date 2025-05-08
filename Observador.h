@@ -3,5 +3,5 @@
 
 class Observador {
 public:
-    static void observar(const Ecosistema& eco);
+    static void observar(const Ecosistema& eco);
 };
